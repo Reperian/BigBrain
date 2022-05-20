@@ -7,7 +7,7 @@ In backend, run: `yarn start`
 Then in frontend, run: `yarn start`
 
 ## Preview
-(Images/login.PNG)
+![Login](https://github.com/Reperian/BigBrain/tree/main/Images/login.PNG?raw=true)
 
 ## Credits
 ### Backend By:
