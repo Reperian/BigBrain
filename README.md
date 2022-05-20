@@ -7,7 +7,7 @@ In backend, run: `yarn start`
 Then in frontend, run: `yarn start`
 
 ## Preview
-![Login](https://raw.githubusercontent.com/Reperian/BigBrain/Images/login.PNG?raw=true)
+![Login](https://raw.githubusercontent.com/Reperian/BigBrain/master/Images/login.PNG?raw=true)
 
 ## Credits
 ### Backend By:
