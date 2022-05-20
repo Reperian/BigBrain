@@ -1,0 +1,175 @@
+.background {
+  background-color: #f2f2f2;
+  background-image: url(../assets/geometric-shapes-background-hd-image.jpg);
+  height: 100%;
+  height: calc(100vh);
+  margin: 0;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: scroll;
+  width: 100%;
+  padding: 0 20px;
+  gap: 20px;
+}
+
+.gameBackground {
+  background-color: #f2f2f2;
+  height: 100%;
+  height: calc(100vh);
+  margin: 0;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: scroll;
+  width: 100%;
+  padding: 0 20px;
+  gap: 20px;
+}
+
+.logoText {
+  margin-top: 30vh;
+  width: 100%;
+  max-width: 400px;
+}
+
+.joinContainer {
+  width: 100%;
+  max-width: 400px;
+  background: white;
+  border-radius: 4px;
+  box-shadow: rgb(0 0 0 / 15%) 0px 2px 4px 0px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-left: 40px;
+  margin-right: 40px;
+  align-self: center;
+  padding: 20px;
+  gap: 20px;
+}
+
+.joinButton {
+  height: 56px !important;
+}
+
+.question {
+  position: fixed;
+  height: 100px;
+  width: 100%;
+  background: white;
+  border-bottom: 1px solid grey;
+  text-align: center;
+  top: 0;
+}
+
+.questionPic {
+  margin-bottom: 100px;
+  margin-top: 0;
+  width: 100%;
+  height: auto;
+  max-width: 500px;
+  max-height: 500px;
+}
+
+.answerDiv {
+  background: white;
+  border-radius: 4px;
+  width: 90%;
+  height: 75px;
+  max-height:fit-content;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 20px;
+  cursor: pointer;
+  margin-right: 0px;
+  align-self: center;
+}
+
+.answerLabel {
+  width: 70%;
+  max-width: 1000px;
+  height: 75px;
+  overflow: hidden;
+  border-radius: 4px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.answerDiv h2 {
+  width: 100%;
+}
+
+.timer {
+  background: white;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  display: flex;
+}
+
+.timer h1 {
+  margin: 0;
+  font-size: 300%;
+}
+
+.submitButton {
+  width: 100% !important;
+  max-width: 400px !important;
+  height: 100px !important;
+  font-weight: bold !important;
+  font-size: 150% !important;
+}
+
+.resultsBackground {
+  background: url('../assets/geometric-shapes-background-hd-image.jpg');
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+
+.resultsContainer {
+  background: white;
+  border-radius: 4px;
+  box-shadow: rgb(0 0 0 / 15%) 0px 2px 4px 0px;
+  width: 80%;
+  max-width: 600px;
+  padding: 20px;
+  margin: 0 20%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.resultsContainer h1 {
+  border-bottom: 1px solid lightgrey;
+  width:100%;
+  padding-bottom: 20px;
+}
+
+.results {
+  border-bottom: 1px solid lightgrey;
+  width:100%;
+}
+
+.results h3 {
+  display: inline-block;
+}

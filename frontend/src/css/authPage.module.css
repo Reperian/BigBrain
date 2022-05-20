@@ -1,0 +1,49 @@
+.background {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-image: url('../assets/background.jpg');
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
+.authContainer {
+  width: 100%;
+  max-width: 400px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: rgb(0 0 0 / 15%) 0px 2px 4px 0px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: auto;
+  margin: 20% 0;
+  align-self: center;
+}
+
+.Form {
+  margin: 20px;
+  margin-top: 0;
+  text-align: left;
+}
+
+.button {
+  margin-top: 40px !important;
+}
+
+.error {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+@media (max-width: 400px) {
+  .authContainer {
+    width: 90%;
+  }
+}

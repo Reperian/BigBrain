@@ -1,0 +1,126 @@
+.background {
+  background-color: #f2f2f2;
+  height: 100%;
+  min-height: 100vh;
+  padding-top: 80px;
+  margin: 0;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.questionMain {
+  margin-top: 0;
+  width: 50%;
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  gap: 50px;
+}
+
+.questionMain p {
+  font-size: 120%;
+  color: grey;
+}
+
+.titleInput {
+  margin: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  width: 80%;
+  height: min-content;
+  background: white;
+  border-radius: 4px;
+  box-shadow: rgb(0 0 0 / 15%) 0px 2px 4px 0px;
+}
+
+.thumbnailInput  {
+  background: white;
+  border-radius: 4px;
+  box-shadow: rgb(0 0 0 / 15%) 0px 2px 4px 0px;
+  margin: auto;
+  margin-top: 0px;
+  width: 100%;
+  max-width: 600px;
+  max-height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.addThumbnail {
+  width: 80px !important;
+}
+
+.thumbnailButton {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.deleteButton {
+  height: 30px;
+  width: 30px;
+}
+
+.answerList {
+  margin: auto;
+  margin-top: 0px;
+  height: fit-content;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  gap: 20px;
+}
+
+.answer {
+  background: white;
+  border-radius: 4px;
+  width: 90%;
+  margin: auto;
+  height: 75px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.addButton {
+  width: 50% !important;
+  height: 50px !important;
+  align-self: center !important;
+}
+
+.otherInput {
+  margin-top: 0;
+  max-width: 20%;
+  min-width: 15%;
+  height: 500px;
+  background: white;
+  border-radius: 4px;
+  box-shadow: rgb(0 0 0 / 15%) 0px 2px 4px 0px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 50%;
+}
+
+@media (max-width: 750px) {
+  .background {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .questionMain {
+    width: 100%;
+  }
+  .otherInput {
+    max-width: 100%;
+    gap: 50px;
+  }
+}

@@ -1,0 +1,192 @@
+.background {
+  background-color: #f2f2f2;
+  height: 100vh;
+  padding-top: 80px;
+  margin: 0;
+  box-sizing: border-box;
+  background-size: cover;
+  overflow: scroll;
+}
+
+.feedContainer {
+  width: 100%;
+  max-width: 600px;
+  height: 100%;
+  max-height: 90vh;
+  margin: auto;
+}
+
+.quizContainer {
+  width: 100%;
+  max-width: 600px;
+  height:max-content;
+  margin: auto;
+  margin-top: 20px;
+  padding: 20px;
+  background: white;
+  border-radius: 4px;
+  box-shadow: rgb(0 0 0 / 15%) 0px 2px 4px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.quiz {
+  border-radius: 4px;
+  box-shadow: rgb(0 0 0 / 15%) 0px 2px 4px 0px;
+  width: 100%;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  max-height: 125px;
+  overflow:hidden;
+  cursor: pointer;
+}
+
+.thumbnail {
+  width: 125px;
+  background-size:cover;
+}
+
+.quizInfoContainer {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  padding-right: 0;
+  padding-left: 0;
+  padding-bottom: 0;
+}
+
+.quizTitle {
+  height: 70%;
+}
+.quizTitle h3 {
+  margin: 0;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  padding-top: 20px;
+  max-width: 70%;
+  display: inline-block;
+}
+
+.quizInfo {
+  height: 30%;
+  width: 100%;
+  background: lightgrey;
+  color: rgb(51, 51, 51);
+  font-weight: 500;
+  display: flex;
+  flex-direction: row;
+  bottom: 0;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.quizInfo p {
+  font-size: 90%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: center;
+}
+
+.buttons {
+  float: right;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-top: 5px;
+  margin-right: 5px;
+}
+
+.quizButton {
+  padding: 0 !important;
+  padding-top: 5px !important;
+  display: inline-block !important;
+  min-width: 36.5px !important;
+  border-radius: 50% !important;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.textbox {
+  display: inline-block !important;
+}
+
+.button {
+  display: inline-block !important;
+  width: 30%;
+  text-transform: none !important;
+}
+
+.blur {
+  position: fixed;
+  background-image: url('../assets/geometric-shapes-background-hd-image.jpg');
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  z-index: 99;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.alertContainer {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  padding: 20px;
+  border-radius: 4px;
+  width: 500px;
+  height: max-content;
+  gap: 20px;
+}
+
+.alertContainer h2 {
+  margin-bottom: 0px;
+}
+
+.link {
+  width: 100%;
+  align-items: center;
+  display: flex;
+}
+
+.viewResultButtons {
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.endButton {
+  width: 30% !important;
+  align-self: center !important;
+}
+
+.endStartButtons {
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 650px) {
+  .quizContainer {
+    width: 80%;
+  }
+  .quizInfo p {
+    font-size: 2vw;
+    width: 30%;
+  }
+  .quizInfo {
+    height: 50%;
+  }
+  .quizTitle h3 {
+    font-size: 3vw;
+  }
+}
